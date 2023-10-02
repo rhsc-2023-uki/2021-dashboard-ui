@@ -1,4 +1,4 @@
-import { exists } from "https://deno.land/std/fs/exists.ts"
+import { exists } from "https://deno.land/std@0.92.0/fs/exists.ts"
 import { Application, Router, HttpError, Status, send } from "https://deno.land/x/oak/mod.ts";
 
 let leaderboardUrl = Deno.env.get("LEADERBOARD_SERVER");

@@ -1,5 +1,6 @@
 import { Drash } from "https://deno.land/x/drash@v1.4.4/mod.ts";
 import { Tengine } from "https://deno.land/x/drash_middleware@v0.7.6/tengine/mod.ts";
+import { exists } from "https://deno.land/std@0.150.0/fs/exists.ts";
 import { DashboardResource } from "./src/dashboard.ts";
 import { ScriptsResource } from "./src/scripts.ts";
 import { ReplayResource } from "./src/replay.ts";

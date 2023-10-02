@@ -1,5 +1,5 @@
 import { Drash } from "https://deno.land/x/drash@v1.4.4/mod.ts";
-import { exists } from "https://deno.land/std/fs/exists.ts";
+import { exists } from "https://deno.land/std@0.92.0/fs/exists.ts";
 
 let scriptCache = new Map<string,string>();
 
